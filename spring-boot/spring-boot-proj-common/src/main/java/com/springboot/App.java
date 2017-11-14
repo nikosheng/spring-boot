@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * nikofeng create
+ * nikofeng create project
  */
 @SpringBootApplication
 @RestController
@@ -27,7 +27,7 @@ public class App {
     }
 
     @RequestMapping("/")
-    String home() {
+    public String home() {
         return "home";
     }
 
